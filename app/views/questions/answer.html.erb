@@ -1,0 +1,12 @@
+<div class = "question">
+  <p> Question : <%= params[:question].capitalize %> </p>
+  <p class = "author"> - You </p>
+</div>
+
+<div class ="answer">
+  <p> Answer: <%= @response %> </p>
+  <p class = "author"> - Your coach </p>
+</div>
+
+<p> <%= link_to "Ask another question", ask_path %> </p>
+
